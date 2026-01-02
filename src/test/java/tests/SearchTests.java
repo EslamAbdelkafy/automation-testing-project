@@ -13,6 +13,8 @@ import pages.HomePage;
 
 public class SearchTests extends BaseTest {
  HomePage homePage;
+
+
     @Test(description = "Search with valid Arabic keyword")
     @Story("Search Functionality")
     @Severity(SeverityLevel.CRITICAL)
